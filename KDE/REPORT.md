@@ -1,7 +1,7 @@
 
 # REPORT
 >1. The choice of the kernel function K is not crucial to the accuracy of kernel density estimators, so we use the standard multivariate normal kernel throughout.
->2. On the other hand, the choice of the bandwidth matrix H is the single most important factor affecting its accuracy since it controls the amount and orientation of smoothing induced.
+>2. On the other hand, the choice of the bandwidth matrix H is the single most important factor affecting its accuracy since it controls the amount and orientation of smoothing induced.  
 >**SOLUTION**
         
 
