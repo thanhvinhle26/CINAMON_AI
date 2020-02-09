@@ -29,8 +29,10 @@
     * Training set: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
     * Test set: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9%20test.png)
 4. Confusion matrix:
+
 |5765|0|37|14|4|54|27|20|22|34|
-|0|6586|17|15|21|22|8|33|60|14]
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---:|
+|0|6586|17|15|21|22|8|33|60|14|
 |18|30|5475|122|26|41|35|68|64|25|
 |13|19|60|5600|2|137|3|26|94|87|
 |6|4|70|3|5565|38|28|50|28|148|
@@ -40,6 +42,6 @@
 |41|40|97|96|24|102|24|17|5374|38|
 |5|7|14|36|137|49|1|97|59|5460|
         
-    
+
         
     
