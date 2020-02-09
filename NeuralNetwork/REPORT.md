@@ -1,8 +1,30 @@
 # REPORT
-* Experiment with different hidden dimmension (number of hidden units)
+* Experiment with different hidden dimmension (number of hidden units) 20, 50, 100.
     * 20: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D20%20n_hidden%3D20%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
     * 50: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D20%20n_hidden%3D50%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
     * 100: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D20%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
     > We find that experiment with 100 hidden dimension has the highest loss and accuracy so we choose it to the next experiment
+* Experiment with different epochs: 20, 50, 100.
+    * 20: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D20%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
+    * 50: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D50%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
+    * 100: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
+    > We find that experiment with 100 epochs has the highest loss and accuracy so we choose it to the next experiment 
+* Experiment with different input scaling: 0-to-1, 0-to-255
+    * 0-to-255 :![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
+    * 0-to-1 : ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9%20scale1.png)
+    > We find that experiment with input scaling 0-to-255 has the highest loss and accuracy so we choose it to the next experiment
+* Experiment with different learning rate: 0.1, 0.001, etc.
+    * 0.1 : ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
+    * 0.001: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.001%20momentum%20%3D%200.9%20scale1.png)
+    >  We find that experiment with learning rate 0.1 has the highest loss and accuracy so we choose it to the next experiment
+* Experiment with different momentumn factors: 0.9, 0.8, 0.1, 0.0.
+    * 0.9: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
+    * 0.8: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.8.png)
+    * 0.1: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.1.png)
+    * 0.0: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.png)
+    > We find that experiment with momentumn factors: 0.9 has the highest loss and accuracy so we choose it.
+    
+    
+    
         
     
