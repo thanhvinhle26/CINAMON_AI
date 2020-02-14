@@ -24,7 +24,8 @@
     * 0.0: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.png)
     > We find that experiment with momentumn factors: 0.9 has the highest loss and accuracy so we choose it.
     
-1. The higher hidden units we use the better we have in loss and accuracy
+1. The higher hidden units we use the better we have in loss and accuracy.
+2. When we increase the numbers of hidden units ,we need fewer epochs to reach a same accuracy. 
 3. My network does not over fit with accuracy of the training set is 0.94 and the test set is 0.93
     * Training set: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
     * Test set: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9%20test.png)
@@ -41,6 +42,12 @@
 |4|22|76|76|7|16|1|5943|18|115|
 |41|40|97|96|24|102|24|17|5374|38|
 |5|7|14|36|137|49|1|97|59|5460|
+
+5. Scaling improve the accuracy of my neural network,when i increase the size of dataset from 48000 up to 60000 the accuracy rises from 93% to 94%.
+6. Momentum factor’s value improve the accuracy of the model with fewer epochs
+    * Without momentum : ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.png)
+    * With appropriate momentum: ![](https://github.com/thanhvinhle26/CINAMON_AI/blob/master/NeuralNetwork/epoch%3D100%20n_hidden%3D100%20learning%20rate%20%3D%200.1%20momentum%20%3D%200.9.png)
+
         
 
         
