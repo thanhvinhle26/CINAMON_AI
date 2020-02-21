@@ -10,4 +10,4 @@
 * Finding ratio of authentic blocks/ tampered blocks in all train data to classification base on ratio
     * sample_image(): Function use for dividing input image into 64*64 blocks
     *  ratio(): Function for finding ratio of authentic blocks/ tampered blocks 
-    *  predict_forensic_image(): Predict image is authentic or not base on SVM classification.
+    *  predict_forensic_image(): Predict image is authentic or not base on SVM classification with 87% accuracy.
